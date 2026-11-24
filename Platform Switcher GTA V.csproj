@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>Grand_Theft_Auto_V_Platform_Switcher</RootNamespace>
-    <AssemblyName>Grand Theft Auto V Platform Switcher</AssemblyName>
+    <AssemblyName>Platform Switcher GTA V</AssemblyName>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWindowsForms>true</UseWindowsForms>
@@ -15,10 +15,13 @@
     <Version>2.0.0</Version>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <Product>Grand Theft Auto V Platform Switcher</Product>
-    <Description>Utility for switching Grand Theft Auto V (Legacy and Enhanced) between Rockstar Games Launcher, Steam, and Epic Games Launcher using a single installation.</Description>
+    <Product>Platform Switcher GTA V</Product>
+    <Description>Platform switcher for GTA V (GTA 5, Grand Theft Auto V) including Enhanced Edition: switch between Rockstar Games Launcher, Steam, and Epic Games using one game folder, no duplicate install. Original author TechnoStone, maintained by boncabee. MIT license.</Description>
     <Authors>boncabee; TechnoStone</Authors>
     <Copyright>Copyright (c) boncabee / TechnoStone</Copyright>
+    <PackageTags>GTA V; GTA 5; Grand Theft Auto V; Enhanced Edition; platform switcher; Rockstar Games Launcher; Steam; Epic Games; one game folder; no duplicate install</PackageTags>
+    <PackageProjectUrl>https://github.com/boncabee/PlatformSwitcherGTAV</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/boncabee/PlatformSwitcherGTAV</RepositoryUrl>
 
     <DefaultItemExcludes>$(DefaultItemExcludes);tests\**;AddToRelease\**;publish\**</DefaultItemExcludes>

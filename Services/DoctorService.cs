@@ -1,4 +1,4 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Text;
 using Grand_Theft_Auto_V_Platform_Switcher.Models;
 
@@ -507,7 +507,7 @@ public sealed class DoctorService
     {
         var appVersion = Assembly.GetExecutingAssembly().GetName().Version?.ToString(3) ?? "2.0.0";
         var sb = new StringBuilder();
-        sb.AppendLine("## GTA V Platform Switcher - Diagnostic Report");
+        sb.AppendLine("## Platform Switcher GTA V - Diagnostic Report");
         sb.AppendLine();
         sb.AppendLine($"- **App Version**: `v{appVersion}`");
         sb.AppendLine($"- **OS**: `{Environment.OSVersion}` (64-bit: `{Environment.Is64BitOperatingSystem}`)");

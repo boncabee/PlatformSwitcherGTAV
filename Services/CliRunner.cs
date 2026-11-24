@@ -1,4 +1,4 @@
-using Grand_Theft_Auto_V_Platform_Switcher.Models;
+﻿using Grand_Theft_Auto_V_Platform_Switcher.Models;
 
 namespace Grand_Theft_Auto_V_Platform_Switcher.Services;
 
@@ -102,7 +102,7 @@ public sealed class CliRunner
 
     public static string GetHelpText() =>
         """
-        Grand Theft Auto V Platform Switcher v2.0 - CLI Usage:
+        Platform Switcher GTA V v2.0 - CLI Usage:
 
           --edition <legacy|enhanced>   Select GTA V edition (defaults to saved edition)
           --switch <rgl|steam|egl>      Switch platform files before launching
@@ -116,7 +116,7 @@ public sealed class CliRunner
     {
         if (options.ShowHelp)
         {
-            MessageBox.Show(GetHelpText(), "GTA V Platform Switcher - CLI Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(GetHelpText(), "Platform Switcher GTA V - CLI Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
             return 0;
         }
 
@@ -143,7 +143,7 @@ public sealed class CliRunner
             {
                 var msg = $"CLI: Could not locate {edition.DisplayName} installation directory.";
                 _logger.Error(msg);
-                MessageBox.Show(msg, "GTA V Platform Switcher", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(msg, "Platform Switcher GTA V", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return 2;
             }
         }

@@ -1,4 +1,4 @@
-using Grand_Theft_Auto_V_Platform_Switcher.Models;
+﻿using Grand_Theft_Auto_V_Platform_Switcher.Models;
 using Grand_Theft_Auto_V_Platform_Switcher.Services;
 using Xunit;
 
@@ -314,7 +314,7 @@ public sealed class CoreServicesTests : IDisposable
             report,
             switcher.GetVersionSnapshot(EditionSpec.Legacy, gameDir),
             beSvc.Inspect(EditionSpec.Legacy, gameDir));
-        Assert.Contains("## GTA V Platform Switcher - Diagnostic Report", md);
+        Assert.Contains("## Platform Switcher GTA V - Diagnostic Report", md);
         Assert.Contains("### Checks", md);
     }
 

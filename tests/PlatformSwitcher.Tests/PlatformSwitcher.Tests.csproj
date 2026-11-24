@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0-windows</TargetFramework>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Grand Theft Auto V Platform Switcher.csproj" />
+    <ProjectReference Include="..\..\Platform Switcher GTA V.csproj" />
   </ItemGroup>
 
 </Project>

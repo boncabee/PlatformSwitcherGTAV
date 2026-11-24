@@ -2,7 +2,7 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grand Theft Auto V Platform Switcher", "Grand Theft Auto V Platform Switcher.csproj", "{8587B036-84DF-4342-BE26-8F47BED0EBBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform Switcher GTA V", "Platform Switcher GTA V.csproj", "{8587B036-84DF-4342-BE26-8F47BED0EBBA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformSwitcher.Tests", "tests\PlatformSwitcher.Tests\PlatformSwitcher.Tests.csproj", "{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}"
 EndProject

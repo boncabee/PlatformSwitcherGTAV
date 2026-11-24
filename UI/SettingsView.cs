@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Drawing;
 using System.Reflection;
 using System.Windows.Forms;
@@ -468,7 +468,7 @@ public sealed class SettingsView : UserControl
 
         _lblAboutTitle = new Label
         {
-            Text = $"Grand Theft Auto V Platform Switcher v{version} · by boncabee & TechnoStone",
+            Text = $"Platform Switcher GTA V v{version} · by boncabee & TechnoStone",
             Font = new Font("Segoe UI Semibold", 8.6F),
             UseMnemonic = false,
             AutoSize = false,
@@ -483,7 +483,7 @@ public sealed class SettingsView : UserControl
 
         _lblAboutSubtitle = new Label
         {
-            Text = "Play GTA V (Legacy or Enhanced) across Rockstar Games, Steam, and Epic Games using one folder.",
+            Text = "GTA V / GTA 5 platform switcher (Legacy + Enhanced): Rockstar Games Launcher, Steam, Epic Games. One game folder, no duplicate install. MIT.",
             Font = new Font("Segoe UI", 8F),
             UseMnemonic = false,
             AutoSize = false,
@@ -498,6 +498,7 @@ public sealed class SettingsView : UserControl
 
         aboutTextStack.Controls.Add(_lblAboutTitle, 0, 0);
         aboutTextStack.Controls.Add(_lblAboutSubtitle, 0, 1);
+        new ToolTip().SetToolTip(_lblAboutSubtitle, "Platform Switcher GTA V - switch GTA V (GTA 5, Grand Theft Auto V, Enhanced Edition) between Rockstar Games Launcher, Steam, and Epic Games with one game folder and no duplicate install. Original author TechnoStone, maintained by boncabee. MIT license. https://github.com/boncabee/PlatformSwitcherGTAV");
 
         _linkRepo = new LinkLabel
         {

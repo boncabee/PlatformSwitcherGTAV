@@ -121,7 +121,7 @@ public sealed class MainWindow : Form
     private void InitializeShell()
     {
         SuspendLayout();
-        Text = "Grand Theft Auto V Platform Switcher";
+        Text = "Platform Switcher GTA V";
         Icon = AppAssets.LoadAppIcon();
         AutoScaleDimensions = new SizeF(96F, 96F);
         AutoScaleMode = AutoScaleMode.Dpi;
