@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# JetBrains Rider / IntelliJ project files
+.idea/
+
+# Internal design notes (kept locally, not published)
+docs/
+

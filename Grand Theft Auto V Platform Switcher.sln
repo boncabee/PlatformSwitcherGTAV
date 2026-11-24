@@ -1,9 +1,10 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29609.76
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grand Theft Auto V Platform Switcher", "Grand Theft Auto V Platform Switcher.csproj", "{8587B036-84DF-4342-BE26-8F47BED0EBBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grand Theft Auto V Platform Switcher", "Grand Theft Auto V Platform Switcher.csproj", "{8587B036-84DF-4342-BE26-8F47BED0EBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformSwitcher.Tests", "tests\PlatformSwitcher.Tests\PlatformSwitcher.Tests.csproj", "{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +16,12 @@ Global
 		{8587B036-84DF-4342-BE26-8F47BED0EBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8587B036-84DF-4342-BE26-8F47BED0EBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8587B036-84DF-4342-BE26-8F47BED0EBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B4C2D1-6E8F-4A7B-9C1D-3E5F7A9B1C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D7A3735C-C201-4870-92F2-5EBD0705ED96}
 	EndGlobalSection
 EndGlobal
