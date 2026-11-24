@@ -2,6 +2,8 @@
 
 Switch **GTA V** (**GTA 5**, **Grand Theft Auto V**, Legacy and Enhanced Edition) between **Rockstar Games Launcher**, **Steam**, and **Epic Games** with one game folder, no duplicate install.
 
+![x](https://github.com/boncabee/PlatformSwitcherGTAV/blob/main/view.png)
+
 ## Features
 
 - Auto-detects Rockstar, Steam, and Epic installs (registry, Steam manifests, Epic manifests).
