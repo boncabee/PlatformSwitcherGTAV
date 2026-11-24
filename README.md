@@ -1,4 +1,4 @@
-# Platform Switcher GTA V
+# Platform Switcher GTA V [Legacy & Enhanced]
 
 Switch **Grand Theft Auto V** (Legacy and Enhanced) between **Rockstar Games Launcher**, **Steam**, and **Epic Games** with one game folder installation files, no duplicate install.
 
